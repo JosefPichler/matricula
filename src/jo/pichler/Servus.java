@@ -15,5 +15,12 @@ public class Servus {
 		}
 	}
 	
+	public void g(Map<String, String> m){
+		for(String e : m.keySet()){
+			String v = m.get(e);
+			System.out.println(v);
+		}
+	}
+	
 	
 }
