@@ -6,5 +6,14 @@ public class Servus {
 		System.out.println("Servus!");
 	}
 	
+	public boolean f(int a) {
+		if (a < 0) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	
 	
 }
